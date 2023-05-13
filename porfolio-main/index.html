@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#work">Work</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Developer Portfolio</h1>
+  </header>
+
+  <div class="container">
+    <div class="left-section">
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="imgs/avatar.jpg" alt="Developer Avatar" width="300" height="250">
+        <p>Hello! I'm Konnor Starkey, a software development major with a passion for creating innovative and user-friendly applications. Ever since I discovered my interest in technology, I have been captivated by the power of software to solve complex problems and enhance people's lives..</p>
+        <p>But it's not just about the technical aspects. I believe that good software is not only functional but also intuitive and visually appealing. I have developed a keen eye for design principles and user experience, striving to create seamless interactions that make technology accessible to all users.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="concern" placeholder="Your Concern" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="right-section">
+      <section id="work">
+        <h2>My Work</h2>
+        <div class="work-gallery">
+          <div class="work-item">
+            <a href="application1.html" target="_blank">
+              <img src="imgs/application1.jpg" alt="Application 1">
+            </a>
+            <p>My Module One Project</p>
+          </div>
+          <div class="work-item">
+            <a href="application2.html" target="_blank">
+              <img src="imgs/application2.jpg" alt="Application 2">
+            </a>
+            <p>A similar design to what I want to do for my father-in-law's business</p>
+          </div>
+          <div class="work-item">
+            <a href="application3.html" target="_blank">
+              <img src="imgs/application3.jpg" alt="Application 3">
+            </a>
+            <p>Everybody's First Site</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>
